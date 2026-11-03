@@ -4,7 +4,7 @@ self.FIT_CONFIG = Object.freeze({
  "name": "EVELYN FIT",
  "letter": "E",
  "accent": "#d6197a",
- "accentDark": "#4a0f33",
+ "accentDark": "#3a0d4a",
  "legacyKey": "fit-v2-evelyn-fit",
  "legacyName": "EVELYN FIT",
  "otherIds": [
@@ -21,7 +21,24 @@ self.FIT_CONFIG = Object.freeze({
   "Descansar también es parte de avanzar.",
   "Cada serie cuenta, incluso en los días difíciles.",
   "La constancia gana cuando la motivación descansa.",
-  "No persigas una semana perfecta: construye un año sólido."
+  "No persigas una semana perfecta: construye un año sólido.",
+  "Cuidarte también es entrenar con calma y constancia.",
+  "Cada sesión es un regalo para tu salud.",
+  "Más fuerte cada semana, a tu ritmo.",
+  "Tu bienestar merece este tiempo.",
+  "Escucha a tu cuerpo: adaptar no es abandonar.",
+  "La fuerza que construyes hoy te sostiene mañana.",
+  "Moverte bien es tan importante como moverte mucho.",
+  "Un paso pequeño sigue siendo un paso adelante.",
+  "Respira, conecta y disfruta del movimiento.",
+  "Tu constancia vale más que cualquier sesión perfecta.",
+  "Entrenar es una forma de quererte.",
+  "Hoy suma, aunque sea una sesión corta.",
+  "La técnica cuidada protege tus articulaciones.",
+  "Descansar bien forma parte de tu progreso.",
+  "Celebra lo que tu cuerpo ya puede hacer.",
+  "Tu energía crece con cada semana de hábito.",
+  "Vuelve siempre: ahí está el progreso."
  ],
- "routineNotice": "Rutina PROVISIONAL: pendiente de cotejo con el plan avanzado aprobado. Puede cambiar."
+ "routineNotice": "Rutina organizada según tu plan del 29/10 con tus ejercicios actuales. Pendiente de confirmar los ejercicios exactos de ese plan."
 });

@@ -1,22 +1,13 @@
-// Rutina copiada sin cambios de EVELYN_RUTINA_OFICIAL_PENDIENTE_VALIDACION.json (sha256 abe0ce3dc9932a377b51ae6775e6e7df49dcc0d7778199d53bcf5c0454b2a474).
+// Rutina copiada sin cambios de EVELYN_RUTINA_29OCT_ORDENADA.json (sha256 d1fb10f531971f2c978e397921a50907f02df1419b8ce812fe4ce149b38bc291).
 self.FIT_ROUTINE = {
  "app": "EVELYN FIT",
- "status": "provisional_pendiente_cotejo",
- "source": "EVELYN_FIT.html",
+ "status": "distribucion_29oct_ejercicios_existentes",
+ "source": "EVELYN_RUTINA_OFICIAL_PENDIENTE_VALIDACION.json reordenada según la distribución del 29/10 (sin ejercicios nuevos)",
  "days": [
   {
    "day": "Lunes",
-   "focus": "Piernas y glúteos",
+   "focus": "Cuádriceps y glúteos",
    "exercises": [
-    {
-     "name": "Hip thrust Smith",
-     "prescription": "4 × 8–12",
-     "alternatives": [
-      "Hip thrust mancuerna",
-      "Puente unilateral",
-      "Puente con banda"
-     ]
-    },
     {
      "name": "Sentadilla goblet a banco",
      "prescription": "3 × 10–12",
@@ -36,12 +27,21 @@ self.FIT_ROUTINE = {
      ]
     },
     {
-     "name": "Peso muerto rumano mancuernas",
-     "prescription": "3 × 8–12",
+     "name": "Step-up bajo",
+     "prescription": "3 × 10 por pierna",
      "alternatives": [
-      "Bisagra sin carga",
-      "Curl femoral deslizante",
-      "Pull-through banda"
+      "Zancada inversa",
+      "Split squat apoyado",
+      "Sentadilla goblet"
+     ]
+    },
+    {
+     "name": "Hip thrust Smith",
+     "prescription": "4 × 8–12",
+     "alternatives": [
+      "Hip thrust mancuerna",
+      "Puente unilateral",
+      "Puente con banda"
      ]
     },
     {
@@ -57,8 +57,17 @@ self.FIT_ROUTINE = {
   },
   {
    "day": "Martes",
-   "focus": "Pecho, hombros y tríceps",
+   "focus": "Espalda, pecho y brazos",
    "exercises": [
+    {
+     "name": "Remo pecho apoyado",
+     "prescription": "4 × 10",
+     "alternatives": [
+      "Remo unilateral",
+      "Remo banda",
+      "Remo invertido Smith"
+     ]
+    },
     {
      "name": "Press pecho Smith",
      "prescription": "4 × 8–10",
@@ -69,29 +78,20 @@ self.FIT_ROUTINE = {
      ]
     },
     {
-     "name": "Press inclinado mancuernas",
-     "prescription": "3 × 10",
+     "name": "Remo invertido Smith",
+     "prescription": "3 × 8–12",
      "alternatives": [
-      "Smith inclinado",
-      "Flexiones elevadas",
-      "Press neutro"
+      "Remo banda",
+      "Remo apoyado",
+      "Remo unilateral"
      ]
     },
     {
-     "name": "Press hombros sentado",
-     "prescription": "3 × 10",
+     "name": "Curl bíceps alternado",
+     "prescription": "3 × 12",
      "alternatives": [
-      "Unilateral",
-      "Neutro",
-      "Elevación frontal"
-     ]
-    },
-    {
-     "name": "Elevaciones laterales",
-     "prescription": "3 × 12–15",
-     "alternatives": [
-      "Unilateral",
-      "Sentada",
+      "Martillo",
+      "Sentado",
       "Banda"
      ]
     },
@@ -108,58 +108,7 @@ self.FIT_ROUTINE = {
   },
   {
    "day": "Miércoles",
-   "focus": "Espalda y bíceps",
-   "exercises": [
-    {
-     "name": "Remo pecho apoyado",
-     "prescription": "4 × 10",
-     "alternatives": [
-      "Remo unilateral",
-      "Remo banda",
-      "Remo invertido Smith"
-     ]
-    },
-    {
-     "name": "Remo invertido Smith",
-     "prescription": "3 × 8–12",
-     "alternatives": [
-      "Remo banda",
-      "Remo apoyado",
-      "Remo unilateral"
-     ]
-    },
-    {
-     "name": "Pullover mancuerna",
-     "prescription": "3 × 12",
-     "alternatives": [
-      "Pullover banda",
-      "Jalón banda seguro",
-      "Remo codos cerrados"
-     ]
-    },
-    {
-     "name": "Curl bíceps alternado",
-     "prescription": "3 × 12",
-     "alternatives": [
-      "Martillo",
-      "Sentado",
-      "Banda"
-     ]
-    },
-    {
-     "name": "Face pull banda",
-     "prescription": "3 × 15",
-     "alternatives": [
-      "Pájaros",
-      "Pull-aparts",
-      "Aperturas inversas"
-     ]
-    }
-   ]
-  },
-  {
-   "day": "Jueves",
-   "focus": "Glúteos, posterior y core",
+   "focus": "Glúteos, femorales y abdomen",
    "exercises": [
     {
      "name": "Hip thrust mancuerna",
@@ -171,21 +120,21 @@ self.FIT_ROUTINE = {
      ]
     },
     {
+     "name": "Peso muerto rumano mancuernas",
+     "prescription": "3 × 8–12",
+     "alternatives": [
+      "Bisagra sin carga",
+      "Curl femoral deslizante",
+      "Pull-through banda"
+     ]
+    },
+    {
      "name": "Curl femoral deslizante",
      "prescription": "3 × 12",
      "alternatives": [
       "Banda",
       "Toalla",
       "Puente talones"
-     ]
-    },
-    {
-     "name": "Step-up bajo",
-     "prescription": "3 × 10 por pierna",
-     "alternatives": [
-      "Zancada inversa",
-      "Split squat apoyado",
-      "Sentadilla goblet"
      ]
     },
     {
@@ -209,8 +158,59 @@ self.FIT_ROUTINE = {
    ]
   },
   {
+   "day": "Jueves",
+   "focus": "Hombros, espalda y pecho",
+   "exercises": [
+    {
+     "name": "Press hombros sentado",
+     "prescription": "3 × 10",
+     "alternatives": [
+      "Unilateral",
+      "Neutro",
+      "Elevación frontal"
+     ]
+    },
+    {
+     "name": "Press inclinado mancuernas",
+     "prescription": "3 × 10",
+     "alternatives": [
+      "Smith inclinado",
+      "Flexiones elevadas",
+      "Press neutro"
+     ]
+    },
+    {
+     "name": "Pullover mancuerna",
+     "prescription": "3 × 12",
+     "alternatives": [
+      "Pullover banda",
+      "Jalón banda seguro",
+      "Remo codos cerrados"
+     ]
+    },
+    {
+     "name": "Elevaciones laterales",
+     "prescription": "3 × 12–15",
+     "alternatives": [
+      "Unilateral",
+      "Sentada",
+      "Banda"
+     ]
+    },
+    {
+     "name": "Face pull banda",
+     "prescription": "3 × 15",
+     "alternatives": [
+      "Pájaros",
+      "Pull-aparts",
+      "Aperturas inversas"
+     ]
+    }
+   ]
+  },
+  {
    "day": "Viernes",
-   "focus": "Full body",
+   "focus": "Cuerpo completo",
    "exercises": [
     {
      "name": "Sentadilla goblet a banco",
